@@ -1,0 +1,19 @@
+.myForm
+{
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    border: solid lightgray; 
+    padding: 1rem; 
+    border-radius: 1rem; 
+    vertical-align:middle; 
+    background-color:white;
+}
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 50rem; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+}
